@@ -4,7 +4,7 @@ Code, data, and DFT inputs for:
 
 > Md. Mohiuddin, Alamgir Kabir\*, Jannatul Ferdousi,
 > *Conformal prediction quantifies the reliability limits of machine-learned band-gap
-> screening of Sr₂BB′O₆ double perovskite oxides* (submitted, 2026).
+> screening in oxide double perovskites* (submitted, 2026).
 > \*Corresponding author: alamgir.kabir@du.ac.bd
 
 The paper trains a stacked gradient-boosted ensemble (CatBoost / XGBoost /
