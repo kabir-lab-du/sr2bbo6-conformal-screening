@@ -14,7 +14,7 @@ def sub(f):
 rows = []
 for _, r in df.iterrows():
     rows.append(
-        f"{sub(r.formula)} & {r.e_class} & {r.bg_pred:.2f} & "
+        f"{sub(r.formula)} & {r.e_class}{'$^*$' if r.reclassified else ''} & {r.bg_pred:.2f} & "
         f"[{max(r.bg_ci_lo, 0):.2f}, {r.bg_ci_hi:.2f}] & "
         f"[{max(r.mondrian_lo, 0):.2f}, {r.mondrian_hi:.2f}] & "
         f"{r.tier} & {r.mondrian_tier} \\\\")

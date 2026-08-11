@@ -132,7 +132,7 @@ ax.axvspan(PV_LO, PV_HI, color=GREEN, alpha=0.15, zorder=1)
 ax.text(PV_LO - 0.08, len(a1) + 0.75, "PV window", ha="right", va="center",
         fontsize=7, color="#00755E")
 for i, r in a1.iterrows():
-    closed = r.e_class == "closed"
+    closed = bool(getattr(r, "reclassified", False))
     col = VERM if closed else BLUE
     ax.plot([max(r.mondrian_lo, 0), r.mondrian_hi], [i, i], color=col, lw=1.5,
             solid_capstyle="butt", zorder=2)
@@ -145,7 +145,7 @@ ax.set_ylim(-0.6, len(a1) + 1.4)
 from matplotlib.lines import Line2D
 ax.legend(handles=[
     Line2D([], [], color=VERM, lw=1.5, marker="o", ms=4,
-           label="closed shell ($d^0/d^{10}$)"),
+           label="audit-reclassified (was closed)"),
     Line2D([], [], color=BLUE, lw=1.5, marker="o", ms=4, label="open shell"),
 ], loc="upper right", frameon=True, framealpha=0.95, edgecolor=GRAY,
    handlelength=1.4, borderpad=0.35, handletextpad=0.4)
