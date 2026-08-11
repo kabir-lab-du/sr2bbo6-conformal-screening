@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite the accompanying article."
-title: "Conformal prediction sets honest limits on composition-based band-gap screening of Sr2BB'O6 double perovskite oxides"
+title: "Conformal prediction quantifies the reliability limits of machine-learned band-gap screening in oxide double perovskites"
 authors:
   - family-names: Mohiuddin
     given-names: Md.
