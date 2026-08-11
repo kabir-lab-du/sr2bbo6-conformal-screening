@@ -1,0 +1,27 @@
+
+Sr2BB'O6 V4 screening — src_OQMD=1 convention, 90% conformal, PV window 1.2-1.8 eV
+==============================================================================
+Truly novel candidates: 104
+  Tier A1: 12
+  Tier A2: 86
+  Tier B: 6
+  sensitivity, src_zeros: {'A1': 11, 'A2': 87, 'B': 6}
+  sensitivity, src_MP: {'A1': 26, 'A2': 74, 'B': 4}
+
+Tier A1 (point estimate in PV window), ordered by distance to window centre —
+a reading aid, NOT a confidence ranking:
+  Sr2MoGaO6      1.500 eV  CI [0.639, 2.345]
+  Sr2ZnReO6      1.507 eV  CI [0.653, 2.366]
+  Sr2WSbO6       1.548 eV  CI [0.677, 2.409]
+  Sr2InTeO6      1.629 eV  CI [0.755, 2.505]
+  Sr2MoInO6      1.348 eV  CI [0.487, 2.200]
+  Sr2FeReO6      1.346 eV  CI [0.462, 2.200]
+  Sr2ReInO6      1.327 eV  CI [0.472, 2.175]
+  Sr2HfIrO6      1.304 eV  CI [0.457, 2.159]
+  Sr2MoSnO6      1.279 eV  CI [0.427, 2.136]
+  Sr2MoBiO6      1.269 eV  CI [0.421, 2.125]
+  Sr2WAlO6       1.760 eV  CI [0.906, 2.601]
+  Sr2BiTeO6      1.222 eV  CI [0.352, 2.091]
+
+Known-in-database candidates (validation set, n=192): MAE 0.3551 eV, coverage 0.922
+These are NOT novel and must not be reported as candidates.

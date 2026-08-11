@@ -1,0 +1,42 @@
+SYSTEM = HSE06 Sr2MnWO6 static, FM order (no +U in hybrid step)
+
+# Electronic
+ENCUT      = 520
+PREC       = Accurate
+EDIFF      = 1E-5
+LREAL      = .FALSE.
+ALGO       = Damped
+TIME       = 0.4
+NELM       = 200
+NELMIN     = 6
+ISMEAR     = 0
+SIGMA      = 0.05
+
+# Magnetism carried over from the winning PBE+U relax; U dropped for HSE06
+ISPIN      = 2
+MAGMOM     = 4*0 2*5 2*0 12*0
+LMAXMIX    = 4
+
+# HSE06 hybrid functional settings (identical to lab exemplar)
+GGA        = PE
+LHFCALC    = .TRUE.
+HFSCREEN   = 0.2
+AEXX       = 0.25
+AGGAX      = 0.75
+AGGAC      = 1.00
+ALDAC      = 1.00
+PRECFOCK   = Fast
+
+# Static calculation on the relaxed geometry
+NSW        = 0
+IBRION     = -1
+ICHARG     = 2
+
+# Output
+LWAVE      = .FALSE.
+LCHARG     = .FALSE.
+LORBIT     = 11
+
+# Parallelization
+KPAR       = 1
+NCORE      = 4

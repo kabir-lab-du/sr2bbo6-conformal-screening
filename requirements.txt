@@ -1,0 +1,14 @@
+# Python 3.10.20 (conda env used for all production runs)
+numpy==1.26.4
+pandas==1.5.3
+scikit-learn==1.7.2
+catboost==1.2.10
+xgboost==3.0.0
+lightgbm==4.6.0
+mapie==1.4.0
+optuna==4.8.0
+matminer==0.9.3
+pymatgen==2023.8.10
+matplotlib==3.7.5
+joblib==1.4.2
+pyarrow

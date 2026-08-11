@@ -1,0 +1,1 @@
+[chain] E0(FM)=-.15718612E+03  E0(AFM)=-.15720671E+03  ->  winner: AFM

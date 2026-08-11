@@ -1,0 +1,10 @@
+Single-convention ablation (OQMD-only vs all-data), identical test rows
+==========================================================================
+OQMD test rows: 734
+  OQMD-only model : MAE 0.2653 eV | R² 0.8186
+  All-data model  : MAE 0.2659 eV | R² 0.8200
+  Δ(all-data − OQMD-only) = +0.0007 eV (mixing is benign at this scale)
+
+Transfer check — non-OQMD test rows (n=123):
+  OQMD-only model : MAE 0.6700 eV
+  All-data model  : MAE 0.5241 eV

@@ -1,0 +1,21 @@
+feature,VIF
+MagpieData maximum NUnfilled,inf
+MagpieData range NUnfilled,inf
+MagpieData minimum GSvolume_pa,inf
+MagpieData range GSvolume_pa,inf
+MagpieData range NpUnfilled,inf
+MagpieData range NfUnfilled,inf
+MagpieData mean NdValence,inf
+MagpieData mean NfValence,inf
+MagpieData maximum Electronegativity,inf
+MagpieData minimum NsValence,inf
+MagpieData range NsValence,inf
+MagpieData mean NsValence,inf
+MagpieData minimum NpValence,inf
+MagpieData maximum NpValence,inf
+MagpieData maximum NValence,inf
+MagpieData minimum NValence,inf
+MagpieData range NValence,inf
+MagpieData mean NValence,inf
+MagpieData maximum NsUnfilled,inf
+MagpieData range NsUnfilled,inf

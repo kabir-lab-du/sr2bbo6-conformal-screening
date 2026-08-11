@@ -1,0 +1,38 @@
+SYSTEM = Sr2WAlO6 PBE relax, FM (W5+ d1, Al3+)
+
+# Electronic (lab relax protocol)
+ENCUT      = 520
+PREC       = Accurate
+EDIFF      = 1E-6
+LREAL      = Auto
+ALGO       = All
+NELM       = 200
+NELMIN     = 6
+ISMEAR     = 0
+SIGMA      = 0.05
+GGA        = PE
+AMIX       = 0.2
+BMIX       = 0.0001
+AMIX_MAG   = 0.4
+BMIX_MAG   = 0.0001
+
+# Magnetism: FM (W5+ d1, Al3+); no +U — 4d/5d B site
+ISPIN      = 2
+MAGMOM     = 4*0 2*1 2*0 12*0
+LMAXMIX    = 4
+
+# Ionic relaxation
+NSW        = 100
+IBRION     = 2
+ISIF       = 3
+EDIFFG     = -0.01
+POTIM      = 0.3
+
+# Output
+LWAVE      = .FALSE.
+LCHARG     = .FALSE.
+LORBIT     = 11
+
+# Parallelization
+KPAR       = 2
+NCORE      = 6

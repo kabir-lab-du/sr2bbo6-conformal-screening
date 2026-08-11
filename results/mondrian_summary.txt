@@ -1,0 +1,28 @@
+
+Mondrian (class-conditional) conformal — v4 stacking, 90% nominal
+==========================================================================
+  test closed (n= 202): coverage 0.926 at width 2.227 eV
+  test open   (n= 655): coverage 0.916 at width 1.479 eV
+  sr2  closed (n= 195): coverage 0.933 at width 2.227 eV
+  sr2  open   (n= 387): coverage 0.897 at width 1.479 eV
+  (global-quantile width for comparison: 1.707 eV; MAPIE cross-conformal width ~ see Stage 2B log)
+
+Novel candidates under Mondrian intervals:
+  closed (n=  8): width 2.227 eV | tiers A1=4 A2=4 B=0
+  open   (n= 96): width 1.479 eV | tiers A1=8 A2=76 B=12
+
+Closed-shell tier-A1 novel candidates (the usable-screen shortlist):
+  Sr2InTeO6      1.629 eV  Mondrian CI [0.516, 2.743]
+  Sr2MoInO6      1.348 eV  Mondrian CI [0.234, 2.462]
+  Sr2MoSnO6      1.279 eV  Mondrian CI [0.166, 2.393]
+  Sr2BiTeO6      1.222 eV  Mondrian CI [0.108, 2.336]
+
+DFT compounds under Mondrian intervals (src_OQMD convention):
+  Sr2GaSbO6    [closed] pred 2.232  CI [1.118, 3.346]  HSE06 1.799 -> IN
+  Sr2CrSbO6    [open  ] pred 1.078  CI [0.338, 1.817]  HSE06 0.580 -> IN
+  Sr2MnNbO6    [open  ] pred 0.612  CI [0.000, 1.352]  HSE06 0.086 -> IN
+  Sr2TeZnO6    [closed] pred 1.941  CI [0.827, 3.055]
+  Sr2MnWO6     [open  ] pred 0.992  CI [0.252, 1.731]
+  Sr2TaReO6    [open  ] pred 0.638  CI [0.000, 1.378]  HSE06 0.179 -> IN
+  Sr2VHfO6     [open  ] pred 1.197  CI [0.457, 1.936]  HSE06 2.360 -> OUT
+  Sr2TiMnO6    [open  ] pred 1.082  CI [0.343, 1.822]  HSE06 2.470 -> OUT

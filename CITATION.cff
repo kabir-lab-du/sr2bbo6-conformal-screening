@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the accompanying article."
+title: "Conformal prediction sets honest limits on composition-based band-gap screening of Sr2BB'O6 double perovskite oxides"
+authors:
+  - family-names: Mohiuddin
+    given-names: Md.
+    affiliation: "Department of Physics, University of Dhaka, Bangladesh"
+  - family-names: Kabir
+    given-names: Alamgir
+    affiliation: "Department of Physics, University of Dhaka, Bangladesh"
+    email: alamgir.kabir@du.ac.bd
+  - family-names: Ferdousi
+    given-names: Jannatul
+    affiliation: "Pharmaceutical Science, University of Tasmania, Australia"
+year: 2026
+repository-code: "https://github.com/mohiuddinsciencelover-glitch/sr2bbo6-conformal-screening"

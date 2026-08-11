@@ -1,0 +1,46 @@
+SYSTEM = Sr2MnWO6 PBE+U relax, AFM (Mn2+ d5 HS antialigned, W6+ d0)
+
+# Electronic (lab relax protocol)
+ENCUT      = 520
+PREC       = Accurate
+EDIFF      = 1E-6
+LREAL      = Auto
+ALGO       = All
+NELM       = 200
+NELMIN     = 6
+ISMEAR     = 0
+SIGMA      = 0.05
+GGA        = PE
+AMIX       = 0.2
+BMIX       = 0.0001
+AMIX_MAG   = 0.4
+BMIX_MAG   = 0.0001
+
+# Magnetism: AFM between the two Mn sites in the 20-atom cell
+ISPIN      = 2
+MAGMOM     = 4*0 5 -5 2*0 12*0
+LMAXMIX    = 4
+
+# DFT+U (Dudarev), Mn d only, MP-consistent U=3.9 eV
+LDAU       = .TRUE.
+LDAUTYPE   = 2
+LDAUL      = -1 2 -1 -1
+LDAUU      = 0 3.9 0 0
+LDAUJ      = 0 0 0 0
+LDAUPRINT  = 1
+
+# Ionic relaxation
+NSW        = 100
+IBRION     = 2
+ISIF       = 3
+EDIFFG     = -0.01
+POTIM      = 0.3
+
+# Output
+LWAVE      = .FALSE.
+LCHARG     = .FALSE.
+LORBIT     = 11
+
+# Parallelization
+KPAR       = 2
+NCORE      = 6
