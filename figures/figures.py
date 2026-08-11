@@ -49,7 +49,7 @@ boxes = [
     (34.0, "Composition\nfeatures\nMagpie + src,\nVIF-pruned (55)"),
     (51.0, "Stacked GBDT\nCatBoost /\nXGBoost /\nLightGBM $\\to$ Ridge"),
     (68.0, "CV+ conformal\n90% CIs,\nMondrian\nclasses"),
-    (85.0, "Screen\nSr$_2$BB'O$_6$ space\n$\\to$ 104 novel\ncandidates"),
+    (85.0, "Screen\nSr$_2$BB'O$_6$ space\n$\\to$ 104 database-\nnovel candidates"),
 ]
 W, H, Y = 15.0, 22, 2
 for x, txt in boxes:
