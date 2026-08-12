@@ -1,5 +1,7 @@
 # Conformal-prediction band-gap screening of Sr₂BB′O₆ double perovskites
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21895728.svg)](https://doi.org/10.5281/zenodo.21895728)
+
 Code, data, and DFT inputs for:
 
 > Md. Mohiuddin, Alamgir Kabir\*, Jannatul Ferdousi,
@@ -55,8 +57,8 @@ Two practical notes:
   OpenMP threads is orders of magnitude *slower* (benchmark in the SI).
 - **Trained model binaries** (~551 MB) exceed GitHub limits and are not in this
   repository; all models are exactly reproducible from `scripts/` + `data/`
-  (seeds fixed). A versioned archive with the binaries will be deposited with a
-  DOI upon acceptance of the article.
+  (seeds fixed). A versioned archive including the binaries is deposited at Zenodo:
+  [10.5281/zenodo.21895728](https://doi.org/10.5281/zenodo.21895728).
 
 ## DFT inputs
 
